@@ -1,0 +1,25 @@
+<table>
+    <tr>
+        <th>Pending</th>
+        <th>In progress</th>
+        <th>Finished</th>
+    </tr>
+    <tr>
+        <td>
+            <div *ngFor="let lesson of list">
+                <p *ngIf="lesson.status === 'qd'"><i class="fa-regular fa-clock qd"></i> {{lesson.item}}</p>
+            </div>
+        </td>
+        <td>
+            <div *ngFor="let lesson of list">
+                <p *ngIf="lesson.status === 'inp'"><i class="fa-solid fa-spinner inp"></i> {{lesson.item}}</p>
+            </div>
+        </td>
+        <td>
+            <div *ngFor="let lesson of list">
+                <p *ngIf="lesson.status === 'fin'"><i class="fa-solid fa-check fin"></i> {{lesson.item}}</p>
+            </div>
+        </td>
+    </tr>
+</table>
+<app-dummy [childMessage]="'TOZZ'"></app-dummy>

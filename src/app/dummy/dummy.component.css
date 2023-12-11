@@ -1,0 +1,18 @@
+h3 {
+    margin-top: 100px;
+    margin-bottom: 100px;
+    text-align: center;
+    margin-left: 30px;
+    color: rgb(204, 180, 204);;
+    font-size: 30px;
+    font-weight: bold;
+}
+h3 span {
+    position: relative;
+}
+i {
+    position: absolute;
+    font-size: 48px;
+    left: -40px;
+    color: red;
+}

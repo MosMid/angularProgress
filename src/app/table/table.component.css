@@ -1,0 +1,33 @@
+table {
+    color: #302b63;
+    font-size: large;
+    font-weight: bold;
+    border:1px solid rgb(204, 180, 204);
+}
+table {
+    width: 80%;
+    margin: auto;
+    border-radius: 10px;
+}
+td, th {
+    width: 30%;
+    padding-left: 2%;
+    text-align: left;
+    vertical-align: baseline;
+}
+th {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+tr {
+    background-color: rgb(204, 180, 204);
+}
+.fin {
+    color: rgb(38, 163, 38);
+}
+.qd {
+    color: rgb(116, 114, 114);
+}
+.inp {
+    color: rgb(0, 255, 242);
+}
