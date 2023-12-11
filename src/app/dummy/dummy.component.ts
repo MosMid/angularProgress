@@ -1,4 +1,4 @@
-import { Component, Input, OnInit } from '@angular/core';
+import { Component } from '@angular/core';
 
 @Component({
   selector: 'app-dummy',
@@ -6,7 +6,5 @@ import { Component, Input, OnInit } from '@angular/core';
   styleUrl: './dummy.component.css'
 })
 export class DummyComponent {
-
-  @Input() childMessage: string | undefined;
 
 }
