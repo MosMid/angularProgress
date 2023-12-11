@@ -20,5 +20,10 @@ export const data = [
     {item: "HTTP error handling", status: "qd"},
     {item: "Routing and navigation", status: "qd"},
     {item: "Wildcard route and Redirecting routes", status: "qd"},
-    {item: "Route parameters", status: "qd"}
+    {item: "Route parameters", status: "qd"},
+    {item: "ParamMap observables", status: "qd"},
+    {item: "Optional route parameters", status: "qd"},
+    {item: "Relative navigation", status: "qd"},
+    {item: "Child routes", status: "qd"},
+    {item: "Angular forms", status: "qd"}
   ]
